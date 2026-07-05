@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "beers": [
+    { "name": "Gösser NaturRadler", "brand": "Gösser", "country": "AT", "style": "Radler", "volume": 500, "alcohol": 2.0 },
+    { "name": "Gösser NaturRadler Kräuter", "brand": "Gösser", "country": "AT", "style": "Radler", "volume": 500, "alcohol": 2.0 },
+    { "name": "Stiegl Radler Zitrone", "brand": "Stiegl", "country": "AT", "style": "Radler Zitrone", "volume": 500, "alcohol": 2.0 },
+    { "name": "Stiegl Radler Grapefruit", "brand": "Stiegl", "country": "AT", "style": "Radler Grapefruit", "volume": 500, "alcohol": 2.0 },
+    { "name": "Ottakringer Radler", "brand": "Ottakringer", "country": "AT", "style": "Radler", "volume": 500, "alcohol": 2.0 },
+    { "name": "Bitburger Radler", "brand": "Bitburger", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Krombacher Radler", "brand": "Krombacher", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Veltins Radler", "brand": "Veltins", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Paulaner Radler", "brand": "Paulaner", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Warsteiner Radler", "brand": "Warsteiner", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Radeberger Radler", "brand": "Radeberger", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Fürstenberg Radler", "brand": "Fürstenberg", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Hofbräu Radler", "brand": "Hofbräu", "country": "DE", "style": "Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Schöfferhofer Grapefruit", "brand": "Schöfferhofer", "country": "DE", "style": "Weizen-Radler", "volume": 500, "alcohol": 2.5 },
+    { "name": "Grolsch Radler Citroen", "brand": "Grolsch", "country": "NL", "style": "Radler", "volume": 500, "alcohol": 2.0 },
+    { "name": "Amstel Radler", "brand": "Amstel", "country": "NL", "style": "Radler", "volume": 330, "alcohol": 2.0 },
+    { "name": "San Miguel Radler Limón", "brand": "San Miguel", "country": "ES", "style": "Radler Limón", "volume": 330, "alcohol": 2.0 },
+    { "name": "Radler Damm Limón", "brand": "Estrella Damm", "country": "ES", "style": "Radler Limón", "volume": 330, "alcohol": 3.2 }
+  ]
+}
