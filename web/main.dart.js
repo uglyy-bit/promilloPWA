@@ -35754,19 +35754,19 @@ else return q/(8780+244*r)},
 bqT(a,b,c){var s=A.bqS(a,b,c)
 if(s<=0)return 0.15
 return 0.15*(0.7+0.3*(s/52))},
-ut(d0,d1,d2,d3,d4,d5,d6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9=A.b([],t.H7)
-if(d1.length===0)return c9
-d6=B.d.dc(d6,30,300)
-d4=B.d.dc(d4,120,230)
-d0=B.d.dc(d0,16,120)
-s=A.Z(d1)
+ut(d3,d4,d5,d6,d7,d8,d9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2=A.b([],t.H7)
+if(d4.length===0)return d2
+d9=B.d.dc(d9,30,300)
+d7=B.d.dc(d7,120,230)
+d3=B.d.dc(d3,16,120)
+s=A.Z(d4)
 r=s.h("Y<1,aT>")
-q=new A.Y(d1,new A.amc(),r).iJ(0,new A.amd())
-p=new A.Y(d1,new A.ame(),r).iJ(0,new A.amf())
-r=d5==null
+q=new A.Y(d4,new A.amc(),r).iJ(0,new A.amd())
+p=new A.Y(d4,new A.ame(),r).iJ(0,new A.amf())
+r=d8==null
 o=!r
 n=A.b([],t.kg)
-if(o)for(m=d1.length,l=t.R,k=t.e,j=0;j<d1.length;d1.length===m||(0,A.D)(d1),++j){i=d1[j]
+if(o)for(m=d4.length,l=t.R,k=t.e,j=0;j<d4.length;d4.length===m||(0,A.D)(d4),++j){i=d4[j]
 h=l.a(i.i(0,"drink"))
 g=k.a(i.i(0,"start"))
 f=A.ED(i.i(0,"drinkingDurationHours"))
@@ -35775,64 +35775,66 @@ d=B.d.dc(h.c,0,100)
 c=f!=null&&f>0?f:0.5
 n.push(new A.tS(g,e*(d/100)*0.789,h.d,c))}if(o)b=B.aa2
 else{s=s.h("Y<1,mr>")
-b=A.S(new A.Y(d1,new A.amg(d3,0.25,0.75,0.25),s),s.h("ab.E"))}a=A.bqU(d0,d2,d4,d6)
-if(a<=0)return c9
-a0=A.bqT(d2,d4,d6)
+b=A.S(new A.Y(d4,new A.amg(d6,0.25,0.75,0.25),s),s.h("ab.E"))}a=A.bqU(d3,d5,d7,d9)
+if(a<=0)return d2
+a0=A.bqT(d5,d7,d9)
+a1=Math.pow(3.8,4)
 s=t.i
-a1=(o?B.b.jW(n,0,new A.amh(),s):B.b.jW(b,0,new A.ami(),s))/a*0.8
-a2=a0>0&&a1>0.01?(a1+0.15*Math.log(a1/0.01))/a0:0
-if(!isFinite(a2)||a2<0)a2=168
-a3=B.e.d1(p.ez(q).a,6e7)
-if(a3<0)a3=0
-if(a3>10080)a3=10080
-a4=q.it(A.e5(0,0,0,B.d.dc(a3+Math.min(10080,B.d.kw((8+a2)*60)),360,10080),0).a)
-a5=0.005000000000000001*a/0.8
-a6=!r||b.length===0?q:new A.Y(b,new A.amj(),A.Z(b).h("Y<1,aT>")).iJ(0,new A.amk())
-for(s=a6.a,r=t.N,m=t.z,l=a4.a,k=a4.b,c=d2===B.dv,a7=a6.b,a8=0,a9=!1,b0=0;;++b0){b1=q.it(6e7*B.e.dt(b0))
-b2=b1.a
-if(b2<=l)b3=b2===l&&b1.b>k
-else b3=!0
-if(b3)break
-b4=0
-if(o){b5=A.bmW(b1,d5)
-b3=B.d.dc(b5,0,100)
-b6=1+((c?0.7:0.85)-1)*(b3/100)
-b7=4+-3*(B.d.dc(b5,0,100)/100)
-b8=b7*1.25
-for(b3=n.length,b9=b1.b,j=0;j<b3;++j){c0=n[j]
-c1=c0.a
+a2=(o?B.b.jW(n,0,new A.amh(),s):B.b.jW(b,0,new A.ami(),s))/a*0.8
+a3=a0>0&&a2>0.01?(a2+0.15*Math.log(a2/0.01))/a0:0
+if(!isFinite(a3)||a3<0)a3=168
+a4=B.e.d1(p.ez(q).a,6e7)
+if(a4<0)a4=0
+if(a4>10080)a4=10080
+a5=q.it(A.e5(0,0,0,B.d.dc(a4+Math.min(10080,B.d.kw((8+a3)*60)),360,10080),0).a)
+a6=0.005000000000000001*a/0.8
+a7=!r||b.length===0?q:new A.Y(b,new A.amj(),A.Z(b).h("Y<1,aT>")).iJ(0,new A.amk())
+for(s=a7.a,r=t.N,m=t.z,l=a5.a,k=a5.b,c=d5===B.dv,a8=a7.b,a9=0,b0=!1,b1=0;;++b1){b2=q.it(6e7*B.e.dt(b1))
+b3=b2.a
+if(b3<=l)b4=b3===l&&b2.b>k
+else b4=!0
+if(b4)break
+b5=0
+if(o){b6=A.bmW(b2,d8)
+b4=B.d.dc(b6,0,100)
+b7=1+((c?0.7:0.85)-1)*(b4/100)
+b8=4+-3*(B.d.dc(b6,0,100)/100)
+b9=b8*1.25
+for(b4=n.length,c0=b2.b,j=0;j<b4;++j){c1=n[j]
 c2=c1.a
-if(b2>=c2)c1=b2===c2&&b9<c1.b
-else c1=!0
-if(c1)continue
-c1=c0.f
-c2=c0.b
-if(!(c1>=c2-1e-12)){c3=Math.min(c2/c0.d*0.016666666666666666,c2-c1)
-c0.f=c1+c3
-c0.e=c0.e+c3*b6}c1=c0.e
-if(c1>0){c4=Math.min(c1,(c0.c?b8:b7)*c1*0.016666666666666666)
-c0.e=c1-c4
-b4+=c4}}}else for(b3=b.length,b9=b1.b,j=0;j<b3;++j){c5=b[j]
-c1=c5.a
-c2=c1.a
-if(b2>=c2)c6=b2===c2&&b9<c1.b
-else c6=!0
-if(c6)continue
-c6=c5.c
-if(B.e.d1(b9-c1.b+1000*(b2-c2),6e7)/60<=c6)b4+=c5.b/c6*0.016666666666666666}if(b4>0)a8+=b4/a*0.8
-if(a8>0){b3=a8*a8
-a8-=(a0*a8/(0.15+a8)+0.08*b3/(1.44+b3))*0.016666666666666666
-if(a8<0)a8=0}c9.push(A.a1(["time",b1,"bac",Math.max(0,A.jE(B.d.au(a8,4)))],r,m))
-if(a8>0.05)a9=!0
-if(o)c7=B.b.h9(n,new A.aml(a5))
-else if(b2>=s){b3=b2===s&&b1.b<a7
-c7=b3}else c7=!0
-c8=!0
-if(!a9){b3=p.it(144e8)
-b9=b3.a
-if(b2<=b9){b2=b2===b9&&b1.b>b3.b
-c8=b2}}if(!c7&&c8&&a8<=0.01){if(c9.length!==0&&A.cr(B.b.gar(c9).i(0,"bac"))>0)c9.push(A.a1(["time",b1.it(3e8),"bac",0],r,m))
-break}}return c9},
+c3=c2.a
+if(b3>=c3)c2=b3===c3&&c0<c2.b
+else c2=!0
+if(c2)continue
+c2=c1.f
+c3=c1.b
+if(!(c2>=c3-1e-12)){c4=Math.min(c3/c1.d*0.016666666666666666,c3-c2)
+c1.f=c2+c4
+c1.e=c1.e+c4*b7}c2=c1.e
+if(c2>0){c5=Math.min(c2,(c1.c?b9:b8)*c2*0.016666666666666666)
+c1.e=c2-c5
+b5+=c5}}}else for(b4=b.length,c0=b2.b,j=0;j<b4;++j){c6=b[j]
+c2=c6.a
+c3=c2.a
+if(b3>=c3)c7=b3===c3&&c0<c2.b
+else c7=!0
+if(c7)continue
+c7=c6.c
+if(B.e.d1(c0-c2.b+1000*(b3-c3),6e7)/60<=c7)b5+=c6.b/c7*0.016666666666666666}if(b5>0)a9+=b5/a*0.8
+if(a9>0){c8=a9*a9
+c9=c8*c8
+a9-=(a0*a9/(0.15+a9)+0.08*c8/(1.44+c8)+0.09*c9/(a1+c9))*0.016666666666666666
+if(a9<0)a9=0}d2.push(A.a1(["time",b2,"bac",Math.max(0,A.jE(B.d.au(a9,4)))],r,m))
+if(a9>0.05)b0=!0
+if(o)d0=B.b.h9(n,new A.aml(a6))
+else if(b3>=s){b4=b3===s&&b2.b<a8
+d0=b4}else d0=!0
+d1=!0
+if(!b0){b4=p.it(144e8)
+c0=b4.a
+if(b3<=c0){b3=b3===c0&&b2.b>b4.b
+d1=b3}}if(!d0&&d1&&a9<=0.01){if(d2.length!==0&&A.cr(B.b.gar(d2).i(0,"bac"))>0)d2.push(A.a1(["time",b2.it(3e8),"bac",0],r,m))
+break}}return d2},
 bqV(a,b,c,d,e,f,g){var s,r,q=A.ut(a,b,c,d,e,f,g),p=new A.aT(Date.now(),0,!1)
 if(q.length===0)return A.a1(["soberInTime",p,"soberAtTime",p,"soberInDuration",B.Q,"soberAtDuration",B.Q],t.N,t.z)
 s=A.Ft(q,0.05)
